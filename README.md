@@ -26,8 +26,12 @@ cd Docker-Nuxtjs-Express
 
 ```
 cd api
+<<<<<<< HEAD
 npm install cors dotenv express mysql2 sequelize sequelize-cli
 npm i -D nodemon
+=======
+npm install
+>>>>>>> 27ad9d73ff766bde0b4e34f106faac6d0a1e0c4a
 ```
 
 ### ④Nuxt.js の作成と Docker の起動を行う

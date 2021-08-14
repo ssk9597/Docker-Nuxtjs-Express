@@ -22,10 +22,12 @@ git clone git@github.com:ssk9597/Docker-Nuxtjs-Express.git
 cd Docker-Nuxtjs-Express
 ```
 
-### ③`api`ディレクトリの`node_modules`をインストールする
+### ③`api`ディレクトリの必要なパッケージをインストールする
 
 ```
-npm install
+cd api
+npm install cors dotenv express mysql2 sequelize sequelize-cli
+npm i -D nodemon
 ```
 
 ### ④Nuxt.js の作成と Docker の起動を行う

@@ -1,5 +1,14 @@
+// dotenv
+require('dotenv').config();
+const PORT = process.env.API_PORT;
+
+// express
 const express = require('express');
 const app = express();
+
+// cors
+const cors = require('cors');
+app.use(cors);
 
 // routing_file
 const indexRouter = require('./routes/index');
@@ -7,7 +16,7 @@ const indexRouter = require('./routes/index');
 // routing
 app.use('/', indexRouter);
 
-// サーバーを起動する部分
-app.listen(18080, function () {
-  console.log('http://localhost:18080');
+// start_the_server
+app.listen(PORT, function () {
+  console.log(`http://localhost:${PORT}`);
 });

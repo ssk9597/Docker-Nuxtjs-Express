@@ -18,10 +18,6 @@ nuxt:
 	docker-compose exec front touch .env
 	docker-compose exec front npm install sass-loader@10.1.1 node-sass@5.0.0 --save-dev
 
-# backend
-backend:
-	docker-compose exec app npm install
-
 # typescriptの導入(ファイルの追記あり)
 typescript:
 	docker-compose exec front npm install --save-dev @nuxt/types

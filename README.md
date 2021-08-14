@@ -25,6 +25,7 @@ cd Docker-Nuxtjs-Express
 ### ③`api`ディレクトリの`node_modules`をインストールする
 
 ```
+cd api
 npm install
 ```
 

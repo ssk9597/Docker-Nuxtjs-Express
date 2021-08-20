@@ -9,4 +9,4 @@ RUN npm install
 
 EXPOSE 18080
 
-CMD  yarn start
+CMD  npm run start
